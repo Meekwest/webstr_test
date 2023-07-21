@@ -51,7 +51,7 @@
           class="nav__li"
         >
           <router-link
-            to="/login"
+            to="/"
             class="link pointer transition"
             @click="logout"
           >
