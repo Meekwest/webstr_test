@@ -50,13 +50,13 @@
           v-if="$store.state.user.auth"
           class="nav__li"
         >
-          <router-link
-            to="/"
+          <a
             class="link pointer transition"
+            href="/login"
             @click="logout"
           >
             Выход
-          </router-link>
+          </a>
         </li>
       </ul>
     </nav>
