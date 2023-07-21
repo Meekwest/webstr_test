@@ -2,6 +2,8 @@
 
 ## Один контейнер под Vue.js 3 + Vite приложение
 ## Второй контейнер под json-server, который выступает в роли Fake Rest
+логин: admin
+пароль: password
 
 Проект разворачивается на 
 # :link: localhost:8081(http://localhost:8081)
