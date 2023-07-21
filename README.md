@@ -3,8 +3,8 @@
 ## Один контейнер под Vue.js 3 + Vite приложение
 ## Второй контейнер под json-server, который выступает в роли Fake Rest
 1 пользователь. <br>логин: admin<br>
-пароль: password
-1 пользователь. <br>логин: sergeysergeev<br>
+пароль: password<br><br>
+2 пользователь. <br>логин: sergeysergeev<br>
 пароль: password
 
 Проект разворачивается на 
