@@ -1,0 +1,159 @@
+// reset styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  touch-action: manipulation;
+}
+
+ul[class],
+ol[class],
+input {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+img,
+input {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: $black;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: 1;
+}
+
+input,
+textarea,
+button,
+select,
+div,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+// common styles
+
+.link {
+  text-decoration: none;
+  color: $black;
+}
+
+.button {
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid $black;
+  padding: 5px 20px;
+  border-radius: 15px;
+
+  &:hover {
+    background: $gray;
+  }
+}
+
+.form {
+  padding: 20px;
+  border: 1px solid $black;
+  border-radius: 15px;
+}
+
+.input {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid $black;
+  padding: 5px 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid $black;
+  border-radius: 15px;
+  padding: 10px;
+  background: $white;
+  min-width: 600px;
+  min-height: 400px;
+}
+
+.password-icon {
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  max-width: 1480px;
+}
+
+.page, .container {
+  margin: 0 auto;
+}

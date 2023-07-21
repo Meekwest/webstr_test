@@ -1,0 +1,30 @@
+{
+  "name": "meekwest_test_webstr",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.{js,vue}",
+    "lint:fix": "eslint src/**/*.{js,vue} --fix .",
+    "json:server": "json-server --watch db.json --port 5175"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "js-cookie": "^3.0.5",
+    "json-server": "^0.17.3",
+    "sass": "^1.64.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "vite": "^4.4.0",
+    "vite-svg-loader": "^4.0.0"
+  }
+}

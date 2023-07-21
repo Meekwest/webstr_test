@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "email": "ivanivanov@gmail.com",
+      "login": "admin",
+      "password": "password",
+      "dob": "1987-05-01",
+      "city": "Москва"
+    },
+    {
+      "id": "2",
+      "firstName": "Сергей",
+      "lastName": "Сергеев",
+      "email": "sergeysergeev@gmail.com",
+      "login": "sergeysergeev",
+      "password": "password",
+      "dob": "1999-06-08",
+      "city": "Екатеринбург"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1",
+      "email": "ivanivanov@gmail.com",
+      "title": "Проблема с подключением к серверу",
+      "description": "Здравствуйте! При подключении к серверу по логину и паролю появляется ошибка '500 Internal Server Error'. Невозможно подключиться на протяжении 2 дней.",
+      "mobilePhone": "+79291112233",
+      "date": "2023-07-20T18:25:43.511Z",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "email": "ivanivanov@gmail.com",
+      "title": "Проблема с получением данных о пользователе",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, maxime eveniet ipsum laborum nostrum voluptate? Dignissimos eum iure aliquid neque excepturi optio rem, a esse porro omnis sapiente minus sit?",
+      "mobilePhone": "+79291112233",
+      "date": "2023-07-20T20:27:12.511Z",
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "email": "sergeysergeev@gmail.com",
+      "title": "Заголовок тикета",
+      "description": "loremipsum dolor sit amet, consectetur",
+      "mobilePhone": "+79292345678",
+      "date": "2023-07-20T10:43:25.511Z",
+      "userId": "2"
+    }
+  ]
+}
