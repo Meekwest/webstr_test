@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint src/**/*.{js,vue}",
     "lint:fix": "eslint src/**/*.{js,vue} --fix .",
-    "json:server": "json-server --watch db.json --port 8082 --no-cors"
+    "json:server": "json-server --watch db.json --port 8082 --no-cors --host 0.0.0.0"
   },
   "dependencies": {
     "axios": "^1.4.0",

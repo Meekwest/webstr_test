@@ -10,12 +10,16 @@ services:
     command: ["nginx", "-g", "daemon off;"]
 
   json-server:
-    image: codfish/json-server:0.17.3
-    command: npm run dev
+    build:
+      context: .
+      dockerfile: Dockerfile.json-server
     ports:
-      - "8082:80"
+      - "8082:8082"
     volumes: 
-      - ./db.json:/app/db.json:delegated
-    depends_on:
-      - web
+      - ./db.json:/app/db.json
+    networks:
+      - my-network
 
+networks:
+  my-network:
+    driver: bridge
